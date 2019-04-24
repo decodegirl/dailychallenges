@@ -24,7 +24,7 @@ def cowBull_loop():
 
 if __name__ == '__main__':
     num = str(random.randrange(1000,9999))
-    print(num) # for testing use str(2727)
+    print(num) # prints out the randomly generated 4 digit.
     cow= 0
     count=0
     while cow != 4:
